@@ -21,6 +21,7 @@ public class JenkinsPipelineApplication {
 	public static void main(String[] args) {
 		logger.info("Application Excecuted.....................");
 		SpringApplication.run(JenkinsPipelineApplication.class, args);
+		logger.info("JenkinsPipelineApplication Excecution Completed.....................");
 	}
 
 }
